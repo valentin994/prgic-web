@@ -1,14 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import Header from "../UI/Header";
 
-NavigationComponent.propTypes = {
-    
-};
+const items: string[] = ["Home", "Gallery"];
 
-function NavigationComponent(props) {
-    return (
-        <div></div>
-    );
+function NavigationComponent() {
+  return <Header listOfItems={items}/>;
 }
 
 export default NavigationComponent;
