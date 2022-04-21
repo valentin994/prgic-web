@@ -7,7 +7,7 @@ const Header = (prop: { listOfItems: string[] }) => {
     return <NavLink key={item}>{item}</NavLink>
   })
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" sticky="top">
       <Container>
       <Navbar.Brand>Prgic Tor- und Türtechnik </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
